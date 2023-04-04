@@ -49,6 +49,7 @@ a {
     width: 135px;
     height: 36px;
     font-size: 13px;
+    margin-bottom: 20px;
 }
 
 .btn-primary:hover, .btn-primary:focus {
