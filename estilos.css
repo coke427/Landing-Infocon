@@ -159,6 +159,11 @@ a {
     width: 400px;
     height: 300px;
 }
+#redeslogos {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
 #nuestro-equipo {
     background-color: #f2f2f2;
     padding: 50px;
