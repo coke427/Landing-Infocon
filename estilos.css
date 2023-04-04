@@ -1,0 +1,205 @@
+/* Estilos generales */
+  
+header {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+#textoheader{
+    margin-top: 50px;
+}
+header h2{
+    font-size: 16px;
+    padding: 1px;
+    margin-left: 5px;
+}
+#indeximg {
+    width: 75%;
+    height: auto;
+    border-radius: 10%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #023E73;
+    background-color: #E9ECF2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #023E73;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0B8CBF;
+}
+
+.btn-primary {
+    background-color: #0F5FA6;
+    border-color: #0F5FA6;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 135px;
+    height: 36px;
+    font-size: 13px;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #0F6CA6;
+    border-color: #0F6CA6;
+}
+
+.form-control:focus {
+    border-color: #0B8CBF;
+    box-shadow: none;
+}
+
+/* Estilos para la navegación */
+
+.navbar {
+    background-color: #023E73;
+}
+
+.navbar-brand {
+    color: #E9ECF2;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #E9ECF2;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #0F5FA6;
+}
+
+/* Estilos para los servicios */
+
+#servicios {
+    background-color: #0F5FA6;
+    padding: 4rem 0;
+    color: #f2e9e9;
+}
+
+#servicios h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #f2e9e9;
+}
+
+#servicios .row > div {
+    text-align: center;
+    color: #f2e9e9;
+}
+
+#servicios h3 {
+    font-size: 1.5rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: #f2e9e9;
+}
+
+
+/* Estilos para el formulario de contacto */
+
+#contacto {
+    background-color: #023E73;
+    padding: 4rem 0;
+    color: #E9ECF2;
+}
+
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#contacto .form-control {
+    background-color: #E9ECF2;
+    border-color: #023E73;
+    color: #023E73;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#contacto .form-control::placeholder {
+    color: #023E73;
+    opacity: 0.5;
+}
+
+#contacto button[type="submit"] {
+    margin-top: 2rem;
+}
+
+.contact-text {
+    color: #E9ECF2;
+}
+  
+/* Estilos para el footer */
+
+.footer {
+    background-color: #E9ECF2;
+    color: #0F5FA6;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+#mapa {
+    width: 400px;
+    height: 300px;
+}
+#nuestro-equipo {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+  
+.miembro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+  
+.miembro img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+  
+.miembro h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.miembro p {
+    font-size: 16px;
+    color: #666;
+}
+.miembro img {
+    width: 200px;
+    height: 235px;
+}
+#nosotros h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #023E73;
+}
+  
+#nosotros p {
+    font-size: 17px;
+    color: #023E73;
+    line-height: 1.3;
+}
+
+  
