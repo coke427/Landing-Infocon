@@ -12,17 +12,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
     <!-- CSS personalizado -->
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">INFOCON</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button>            
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
@@ -93,20 +97,25 @@
             <div class="row">
                 <div class="col-lg-4">
                     <h3>Gestión Empresarial</h3>
+                    <button href="servicio1.html" class="btn-ver-mas">Ver más</button>
                 </div>
                 <div class="col-lg-4">
                     <h3>Contabilidad y Finanzas General</h3>
+                    <button href="servicio1.html" class="btn-ver-mas">Ver más</button>
                 </div>
                 <div class="col-lg-4">
                     <h3>Gestión De Sistemas Informáticos</h3>
+                    <button href="servicio1.html" class="btn-ver-mas">Ver más</button>
                 </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <h3>Gestión De Hardware o Equipos</h3>
+                        <button href="servicio1.html" class="btn-ver-mas">Ver más</button>
                     </div>
                     <div class="col-lg-6">
                         <h3>Gestión De Personal y Recursos Humanos</h3>
+                        <button href="servicio1.html" class="btn-ver-mas">Ver más</button>
                     </div>
                 </div>
             </div>
@@ -114,21 +123,33 @@
 
         <!-- Nuestro Equipo --> 
         <section id="nuestro-equipo">
-            <h2>Nuestro Equipo</h2>
+            <h2 id="nuestroequipo">Nuestro Equipo</h2>
             
             <div class="row">
                 <div class="col-md-6">
                   <div class="miembro">
                     <img src="chocho.jpeg" alt="Miembro 1">
                     <h3>Mg. CPC.   Jorge Mantilla Sevillano</h3>
-                    <p>Gerente de Contabilidad</p>
+                    <p>
+                        Contador Público - Universidad Nacional de Trujillo. <br>
+                        Maestría en Tributación – Universidad Nacional de Trujillo. <br>
+                        Estudios de Ingeniería de Sistemas - Universidad Privada Antenor Orrego. <br>
+                        Especialización en Sistemas Informáticos de Gestión Empresarial. <br>
+                        Catedrático de Pregrado y Postgrado - Universidad Nacional de Trujillo. <br>
+                        Gerente de Contabilidad de Informática Contable S.A.
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="miembro">
                     <img src="erick.jpg" alt="Miembro 2">
                     <h3>Mg. CPC. Ing.   Erick Mantilla Sevillano </h3>
-                    <p>Gerente de Sistemas y Contabilidad cuentas Corporativas</p>
+                    <p>
+                       Contador Público – Universidad Nacional de Trujillo. <br>
+                       Ingeniero de Sistemas – Universidad Privada Antenor Orrego. <br>
+                       Maestría MBA – Universidad San Ignacio de  Loyola de Lima. <br>
+                       Gerente de Sistemas y Contabilidad cuentas Corporativas en Informática Contable S.A.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -137,7 +158,12 @@
                   <div class="miembro">
                     <img src="jessica.jpeg" alt="Miembro 3">
                     <h3>CPC.  Jessica Alvan Ramírez</h3>
-                    <p>Supervisora de Servicios Contables Externos y Consultoría</p>
+                    <p>
+                        Contadora Pública – Universidad Nacional de Trujillo. <br>
+                        Diplomado en Finanzas Corporativas - Universidad Privada Del Norte <br>
+                        Especialización en Servicio Contable Externo y Consultoría. <br>
+                        Supervisora de Servicios Contables Externos y Consultoría en Informática Contable S.A. <br>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -169,13 +195,13 @@
                         </form>
                     </div>
                     <div class="col-lg-6">
-                        <h3 class="contact-text">Informática Contable S.A.</h3>
+                        <h3 class="contact-text">Informática Contable S.A.  <i class="fas fa-map-marker-alt"></i></h3>
                         <div id="mapa">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.006952121959!2d-79.03594858255616!3d-8.100771999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d917740a90b%3A0x52e8db15f23d23d3!2sJorge%20Bizet%20404%2C%20Trujillo%2013001!5e0!3m2!1ses-419!2spe!4v1680622132801!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <br>    
-                        <p>Teléfono: 949915616 -  949915617</p>
-                        <p>Correo electrónico: jmantilla@infoconsa.com</p>
+                        <p href="tel:+1234567890"><i class="fas fa-phone"></i> +51 949915616 - 949915617</p>
+                        <p href="mailto:info@example.com"><i class="fas fa-envelope"></i> jmantilla@infoconsa.com</p>
                         <a href="https://web.facebook.com/contadorinfocon" target="_blank"><img id="redeslogos" src="fbc.png" alt="Facebook"></a>
                         <a href="https://www.instagram.com/infocon.sa/" target="_blank"><img id="redeslogos" src="ig.png" alt="Instagram"></a>
                     </div>

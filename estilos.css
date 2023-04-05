@@ -109,7 +109,14 @@ a {
     margin-bottom: 2rem;
     color: #f2e9e9;
 }
-
+.btn-ver-mas {
+    background-color: #cfd0d0;
+    color: #0F5FA6;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
 
 /* Estilos para el formulario de contacto */
 
@@ -169,10 +176,13 @@ a {
     background-color: #f2f2f2;
     padding: 50px;
 }
+#nuestroequipo{
+    margin-bottom: 50px;
+}
   
 .miembro {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
   
 .miembro img {
